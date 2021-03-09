@@ -178,29 +178,35 @@ img{
     position: absolute;
     
 }
+.sec-03-content-w{
+    float: left;
+    width: 45%;
+}
 .sec-03-con-t img{
-    width: 18%;
+    width: 230px;
     position: absolute;
     bottom: -58px;
     transform: rotate(-3.5deg);
 }
 .sec-03-con-t{
-    padding-top: 5%;
+    
     position: relative;
 }
 .sec-03-con-sub{
-    padding-top: 5%;
+    position: relative;
+ padding-top: 30%;
 }
 .sec03-t-des{
-   font-family: 'Noto Sans KR', sans-serif;
+   font-family: 'Cafe24Oneprettynight';
    font-size: 1rem;
-   font-weight: 400;
-   line-height: 3rem;
+   font-weight: 600;
+   line-height: 1.6rem;
 }
-.sec-03-tab-spring>ul>li{
+.sec-03-tab-ss>ul>li{
     float: left;
     text-align: center;
-    padding-right: 20%;
+    width: 50%;
+    margin-top: 5%;
 }
 
 .season-info{
@@ -209,13 +215,12 @@ img{
     font-weight: 500;
 }
 
-.sec-03-tab-con-w{
-    padding-top: 8%;    
-
-}
 .sec-03-tab-con-w>div{
     padding: 3% 0;    
 
+}
+.sec-03-tab-con-w{
+    padding-top: 45%;
 }
 .col-pk:hover{
     color:#e55656;
@@ -229,6 +234,46 @@ img{
 .col-gr:hover{
     color:#b8bbc1;
 }
+
+.sec-03-img-con-w{
+    float: left;
+    width: 45%;
+    padding: 30px 0 0 10%;
+}
+.sec03-img-content>img{
+    width: 80%;
+    margin-top: 20px;
+}
+
+
+.sec-03-top-none{
+    display: none;
+}
+.sec03-img-spring{
+    display: none;
+
+}
+.sec-03-top-none-sum{
+    display: none;
+}
+.sec03-img-summer{
+    display: none;
+}
+.sec-03-top-none-fall{
+    display: none;
+}
+.sec03-img-fall{
+    display: none;
+}
+.sec-03-top-none-win{
+    display: none;
+}
+.sec03-img-winter{
+    display: none;
+}
+
+
+
 
 /* section03 END */
 
@@ -300,12 +345,28 @@ img{
         float: none;
     }
     .display-none img{
-        width: 100%;
+        width: 90%;
+        padding: 0 5%;
     }
 
     .none{
         display: none;
     }
+    /* section02 end */
+    .sec-03-img-con-w{
+        width: 100%;
+        padding: 0;
+    }
+    .sec-03-content-w{
+        width: 100%;
+    }
+    .sec-03-tab-ss>ul>li{
+        float: left;
+        text-align: center;
+        width: 25%;
+        /* margin-top: 5%; */
+    }
+
 }
 
 
