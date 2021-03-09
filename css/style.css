@@ -1,0 +1,422 @@
+@import url(../css/reset.css);
+
+
+.clearfix{
+    clear: both;
+}
+/* navi  */
+
+
+.navi{
+    position: fixed;
+    top: 12%;
+    right: 0%;
+    z-index: 999;
+    }
+
+.navi li{
+    transform: rotate(270deg);
+    margin: 100px;
+    }
+.navi li a{
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family: 'Noto Sans KR', sans-serif;
+   }
+   
+/* navi end   */
+
+/* section01  */
+#section01{
+    width: 100%;
+    background: url('../img/background.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 60px 0;
+}
+
+.logo img{
+    width: 116px;
+}
+.logo{
+    padding: 20px 60px;
+}
+.sec01-title-content{
+    color: #fff;
+    padding: 20px 60px;
+}
+.sec01-main-title{
+    font-size: 35px;
+    font-weight:800;
+    margin: 5% 0;
+}
+.sec01-today-title{
+    font-size:25px;
+    font-weight: 400;
+    margin-top: 12%;
+}
+.sec01-title{
+    font-size: 38px;
+    font-weight: 700;
+    margin: 5% 0;
+}
+
+.scroll-icon, .scroll-icon:before {
+    position: absolute;
+    left: 50%;
+  }
+  
+  .scroll-icon {
+    width: 15px;
+    height: 40px;
+    top: 92%;
+    border: 3px solid #FFF;
+    border-radius: 28px;
+  }
+  
+  .scroll-icon:before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #FFF;
+    top: 2px;
+    left: 3.5px;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-name: scroll;
+  }
+  
+  @keyframes scroll {
+    0% {
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0;
+      top: 30px;
+    }
+  } 
+
+
+/* section1 END */
+
+#section02{
+    padding: 60px 0;
+}
+
+.a-tit{
+    font-size: 2.8rem;
+    font-weight: 600;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#section02{
+    width: 100%;
+    background-image: url(../img/teambg.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container-wrap{
+    width: 1280px;
+    margin: 0 auto;
+}
+.sec02-main-tit{
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+    padding: 7% 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    position: relative;
+}
+.sec02-main-tit::after{
+    width: 53px;
+    height: 4px;
+    background: #000;
+    content: "";
+    position: absolute;
+   top: 32%;
+    left: 48%;
+}
+img{
+    width: 100%;
+}
+
+.media-des{
+    display: none;
+}
+.col-50{
+    width:40%;
+    padding: 20px 60px;
+}
+.col-50-t{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-top: 10%;
+    line-height: 1.5rem;
+    
+}
+.wrap-float>div{
+    float: left;
+}
+
+.display-none{
+    display: none;
+}
+
+/* section02 END */
+
+
+.sec-03-con-tit{
+    font-family: 'Noto Serif', serif;
+    font-size: 3rem;
+    font-weight: 500;
+    position: absolute;
+    
+}
+.sec-03-con-t img{
+    width: 18%;
+    position: absolute;
+    bottom: -58px;
+    transform: rotate(-3.5deg);
+}
+.sec-03-con-t{
+    padding-top: 5%;
+    position: relative;
+}
+.sec-03-con-sub{
+    padding-top: 5%;
+}
+.sec03-t-des{
+   font-family: 'Noto Sans KR', sans-serif;
+   font-size: 1rem;
+   font-weight: 400;
+   line-height: 3rem;
+}
+.sec-03-tab-spring>ul>li{
+    float: left;
+    text-align: center;
+    padding-right: 20%;
+}
+
+.season-info{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+.sec-03-tab-con-w{
+    padding-top: 8%;    
+
+}
+.sec-03-tab-con-w>div{
+    padding: 3% 0;    
+
+}
+.col-pk:hover{
+    color:#e55656;
+}
+.col-gn:hover{
+    color:#8fbc73;
+}
+.col-br:hover{
+    color:#bca073;
+}
+.col-gr:hover{
+    color:#b8bbc1;
+}
+
+/* section03 END */
+
+
+
+
+
+
+@media (max-width:1024px){
+   
+    .container-wrap{
+        width: 100%;
+    }
+}
+@media (max-width:1290px){
+    .container-wrap{
+        width: 100%;
+    }
+}
+@media(max-width:769px){
+    
+   .navbar{
+       display: none;
+   }
+   .container-none{
+       display: block;
+    
+   }
+
+    
+
+    /* section02 */
+
+    .col-50{
+        width: 100%;
+    }
+    .container-wrap{
+        width: 100%;
+    }
+    .col-50{
+        padding: 5% 0;
+    }
+    .a-tit{
+        text-align: center;
+    }
+    .col-50-t{
+        text-align: center;
+        font-size: 1.1rem;
+        line-height: 2rem;
+    }
+    .sec02-main-tit {
+        padding: 20% 0 8%;
+        font-size: 1.1rem;
+    }
+
+    .sec02-main-tit::after{
+        width: 53px;
+        height: 4px;
+        background: #000;
+        content: "";
+        position: absolute;
+       top: 53%;
+        left: 47%;
+    }
+    .display-none{
+        display: block;
+    }
+    .wrap-float>div{
+        float: none;
+    }
+    .display-none img{
+        width: 100%;
+    }
+
+    .none{
+        display: none;
+    }
+}
+
+
+@media(max-width:541px){
+    .logo-img{
+        width: 100px;
+        top: 5%;
+        left: 3%;
+    }
+
+    .event-text{
+        font-size: 1.2rem;
+        padding-bottom: 25%; 
+       }
+       .event-date{
+        font-size: 0.8rem;
+        padding-bottom: 10%;   
+       }
+
+       .event-name-en{
+        font-size: 3rem;
+        padding-bottom: 8%;
+       }
+       .event-name-kr{
+        font-size: 2.2rem;
+      
+       }
+       /*sec1 end*/
+
+       .sec02-main-tit {
+        padding: 30% 0 12%;
+    }
+    .sec02-main-tit::after {
+          left: 45.5%;}
+
+ 
+    
+    .img-size{
+        width: 100%
+    }
+    .sec01-title-content{
+        color: #fff;
+        padding: 20px 60px;
+    }
+    .sec01-main-title{
+        font-size: 35px;
+        font-weight:800;
+        margin: 5% 0;
+    }
+    .sec01-today-title{
+        font-size:25px;
+        font-weight: 400;
+        margin-top: 12%;
+    }
+    .sec01-title{
+        font-size: 28px;
+        font-weight: 600;
+        margin: 8% 0;
+    }
+
+    .sec01-title-content{
+        text-align: center;
+    }
+    .logo{
+        text-align: center;
+    }
+    .scroll-icon {
+        top: 89%;
+    }
+}
+
+@media(max-width:320px){
+    .logo img{
+        width: 90px;
+        }
+    .page-text-event{
+        top: 40%;
+        left: 7%;
+    }
+    .event-text{
+        font-size: 1rem;
+        padding-bottom: 25%; 
+       }
+       .event-date{
+        font-size: 12px;
+        padding-bottom: 10%;   
+       }
+
+       .event-name-en{
+        font-size: 3rem;
+        padding-bottom: 8%;
+       }
+       .event-name-kr{
+        font-size: 2.2rem;
+      
+       }
+       /*sec1 end*/
+
+       .sec02-main-tit::after {
+        left: 41.5%;
+        top: 47%;
+    }
+    .a-tit{
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .col-50-t{
+        text-align: center;
+        font-size: .8rem;
+        line-height: 1.2rem;
+    }
+
+
+}
