@@ -175,27 +175,47 @@ img{
     font-family: 'Noto Serif', serif;
     font-size: 3rem;
     font-weight: 500;
-    position: absolute;
+ 
     
 }
 .sec-03-content-w{
     float: left;
     width: 45%;
 }
-.sec-03-con-t img{
-    width: 230px;
-    position: absolute;
-    bottom: -58px;
-    transform: rotate(-3.5deg);
-}
+
 .sec-03-con-t{
-    
-    position: relative;
+    background-image: url(../img/highlight_pk.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+    background-position-y: 7px;
 }
+.bg-gn{
+    background-image: url(../img/highlight_gn.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+    background-position-y: 7px;
+}
+.bg-br{
+    background-image: url(../img/highlight_bg.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+    background-position-y: 7px;
+}
+.bg-gr{
+    background-image: url(../img/highlight_gr.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+    background-position-y: 7px;
+}
+
 .sec-03-con-sub{
-    position: relative;
  padding-top: 30%;
 }
+
 .sec03-t-des{
    font-family: 'Cafe24Oneprettynight';
    font-size: 1rem;
@@ -353,20 +373,52 @@ img{
         display: none;
     }
     /* section02 end */
+
     .sec-03-img-con-w{
         width: 100%;
-        padding: 0;
+        padding: 0 !important;
     }
     .sec-03-content-w{
         width: 100%;
+        padding: 0 !important;
     }
-    .sec-03-tab-ss>ul>li{
+    .sec-03-tab-con-w {
+        padding-top: 6%;
+    }
+     .sec-03-tab-ss>ul>li{
         float: left;
         text-align: center;
         width: 25%;
-        /* margin-top: 5%; */
-    }
+     }
+       
+    .sec03-t-des{
+         text-align: center;
+     }
+     .sec03-img-content img{
+       display: block;
+       margin: 0 auto;
+       padding-top: 35px;
+     }
+     .sec-03-con-sub{
+         padding-top: 9%;
+     }
 
+     .sec-03-con-t{
+       background-position:center;
+    }
+    .sec-03-con-tit{
+        text-align: center;
+    }
+    .bg-gn{
+        background-position:center;
+    }
+    .bg-br{
+        background-position:center;
+    }
+    .bg-gr{
+        background-position:center;
+    }
+    
 }
 
 
@@ -400,7 +452,8 @@ img{
         padding: 30% 0 12%;
     }
     .sec02-main-tit::after {
-          left: 45.5%;}
+          left: 45.5%;
+        }
 
  
     
@@ -436,9 +489,11 @@ img{
     .scroll-icon {
         top: 89%;
     }
+    /* section02 END */
+   
 }
 
-@media(max-width:320px){
+@media(max-width:321px){
     .logo img{
         width: 90px;
         }
@@ -466,9 +521,12 @@ img{
        /*sec1 end*/
 
        .sec02-main-tit::after {
-        left: 41.5%;
-        top: 47%;
-    }
+        left: 42.3%;
+      }
+    
+      .sec02-main-tit{
+          font-size: 0.8rem;
+      }
     .a-tit{
         text-align: center;
         font-size: 1.2rem;
@@ -478,6 +536,48 @@ img{
         font-size: .8rem;
         line-height: 1.2rem;
     }
+    /* section02 end */
+    
+    
+.sec-03-con-tit {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center; 
+}
 
+.sec03-t-des{
+    font-size: 0.5rem;
+}
+.season-info{
+    font-size: 0.7rem;
+}
+.sec03-t-des{
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    width: 50%;
+    margin: 0 auto;
+}
+.sec-03-img-content{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+.sec-03-img-con-w{
+    margin: 0;
+}
+.sec-03-con-t{
+    background-size: 100px;
+    background-position:center;
+ }
+
+ .bg-gn{
+     background-position:center;
+ }
+ .bg-br{
+     background-position:center;
+ }
+ .bg-gr{
+     background-position:center;
+ }
 
 }
