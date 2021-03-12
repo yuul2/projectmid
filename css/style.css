@@ -470,12 +470,12 @@ img{
     
     .sec04-img-content>div{
         width: 45%;
-        margin: 0 2% 3% 6%;
+        margin: 0 2.5% 3% 2.5%;
         
     }
     .sec04-img-con-none>div{
         width: 45%;
-        margin:0 2% 3% 2%; ;
+        margin:0 2.5% 3% 2.5%;
     }
   
 }
@@ -549,6 +549,16 @@ img{
         top: 89%;
     }
     /* section02 END */
+    .sec04-img-con-none>div{
+        width: 40%;
+        margin:0 5% 3% ;
+    }
+    .sec04-img-content>div{
+        width: 40%;
+        margin: 0 5% 3%;
+        
+    }
+  
    
 }
 
