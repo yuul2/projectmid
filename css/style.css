@@ -10,7 +10,7 @@
 .navi{
     position: fixed;
     top: 12%;
-    right: 0%;
+    right: -5%;
     z-index: 999;
     }
 
@@ -143,6 +143,7 @@
 }
 img{
     width: 100%;
+    margin-top: 19%;
 }
 
 .media-des{
@@ -153,11 +154,11 @@ img{
     padding: 20px 60px;
 }
 .col-50-t{
-    font-size: 1rem;
-    font-weight: 400;
+    font-size: 1.1rem;
+    font-weight: 600;
     font-family: 'Cafe24Oneprettynight';
     margin-top: 10%;
-    line-height: 1.5rem;
+    line-height: 2rem;
     
 }
 .wrap-float>div{
@@ -268,6 +269,7 @@ img{
 
 .sec-03-top-none{
     display: none;
+    margin-left: 12%;
 }
 .sec03-img-spring{
     display: none;
@@ -477,7 +479,7 @@ img{
         width: 45%;
         margin:0 2.5% 3% 2.5%;
     }
-  
+  /* section04 END */
 }
 
 
@@ -551,13 +553,20 @@ img{
     /* section02 END */
     .sec04-img-con-none>div{
         width: 40%;
-        margin:0 5% 3% ;
+        margin:0 5% ;
     }
     .sec04-img-content>div{
         width: 40%;
-        margin: 0 5% 3%;
+        margin: 0 5%;
         
     }
+    .sec04-cont-des{
+        line-height: 20px;
+        font-size: 1rem;
+        height: 100px;
+    }
+    /* section04 END */
+    
   
    
 }
@@ -661,6 +670,6 @@ img{
 .sec04-img-con-none{
     margin: 10% 0 0;
 }
-
+/* section04 END */
 
 }
