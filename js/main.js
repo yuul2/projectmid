@@ -71,3 +71,12 @@ $(function(){
         $('.sec03-img-fall').css('display','none');
     });
 });
+
+//sec03 tab End
+
+$(function(){
+    $('.add-btn').click(function(){
+      $('.sec04-img-con-none').css('display','block');
+      $('.add-btn').css('display','none');
+    });
+});
