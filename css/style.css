@@ -560,6 +560,9 @@ img{
         top: 89%;
     }
     /* section02 END */
+    #section04{
+        width: 100%;
+    }
     .sec04-img-con-none>div{
         width: 40%;
         margin:0 5% ;
