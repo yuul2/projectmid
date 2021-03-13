@@ -115,9 +115,8 @@
 
 #section02{
     width: 100%;
-    background-image: url(../img/teambg.png);
+    background-image: url(../img/bg.png);
     background-color: white;
-    background-repeat: no-repeat;
     background-position: center;
 }
 .container-wrap{
@@ -170,7 +169,12 @@ img{
 }
 
 /* section02 END */
-
+#section03{
+    width: 100%;
+    background-image: url(../img/bg.png);
+    background-color: white;
+    background-position: center;
+}
 
 .sec-03-con-tit{
     font-family: 'Noto Serif', serif;
@@ -181,7 +185,7 @@ img{
 }
 .sec-03-content-w{
     float: left;
-    width: 45%;
+    width: 40%;
 }
 
 .sec-03-con-t{
@@ -241,7 +245,7 @@ img{
 
 }
 .sec-03-tab-con-w{
-    padding-top: 45%;
+    padding-top: 70%;
 }
 .col-pk:hover{
     color:#e55656;
@@ -258,11 +262,11 @@ img{
 
 .sec-03-img-con-w{
     float: left;
-    width: 45%;
-    padding: 30px 0 0 10%;
+    width: 40%;
+    padding: 30px 0 0 14%;
 }
 .sec03-img-content>img{
-    width: 80%;
+    width: 100%;
     margin-top: 20px;
 }
 
@@ -299,6 +303,13 @@ img{
 
 /* section03 END */
 
+#section04{
+    width: 100%;
+    background-image: url(../img/bg.png);
+    background-color: white;
+    background-position: center;
+}
+
 .sec04-img-content>div{
     float: left;
     width: 20%;
@@ -306,9 +317,7 @@ img{
        cursor: pointer;
     
 }
-.sec04-img-con-none{
-    margin: 2% 0;
-}
+
 .sec04-img-con-none>div{
     float: left;
     width: 20%;
