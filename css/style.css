@@ -378,7 +378,7 @@ img{
 .sec05-main-tit::after{
     width: 53px;
     height: 4px;
-    background: #fff;
+    background: #000;
     content: "";
     position: absolute;
    top: 36%;
@@ -390,10 +390,115 @@ img{
     padding: 7% 0;
     font-size: 1.1rem;
     font-weight: 600;
-    color: #fff;
+    color: #000;
     position: relative;
 }
 
+.info-warp>div{
+    width: 41%;
+    float: left;
+}
+.info-warp{
+    margin-left: 4.8%;
+}
+.time-ex{
+    float: left;
+    font-size: 1.3rem;
+font-weight: 600;
+}
+.time-all{
+    float: right;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.time-text>ul>h3{
+    float: left;
+    font-size: 1.2rem;
+    font-weight: 500;
+    width: 40%;
+    text-align: center;
+}
+.time-text>ul>p{
+    float: right;
+    font-size: 1.2rem;
+    font-weight: 500;
+    width: 42%;
+    text-align: center;
+}
+.time-text{
+    height: 50px;
+    display: block;
+    line-height: 27px;
+    padding: 7%;
+    border-top: 3px solid #000;
+    margin-top: 3%;  
+}
+.address{
+float: left;
+font-size: 1.3rem;
+font-weight: 600;
+}
+.parking{
+    float: right;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.add-table{
+    margin-left: 11.6%;
+}
+.fas{
+    font-size: 1.3rem;
+}
+.address-text>p{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.address-text {
+    height: 50px;
+    display: block;
+    line-height: 27px;
+    padding: 7%;
+    border-top: 3px solid #000;
+    margin-top: 3%;
+}
+.ticket-table{
+    width: 50%;
+    padding: 16% 0 0 4.5%;
+}
+.ticket-tit>p{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.target{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.fs-13{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+/* th{
+    font-size: 1.3rem;
+    font-weight: 600;
+    width: 200px;
+
+}
+td{
+    font-size: 1.2rem;
+    width: 100px;
+    text-align: center;
+    padding: 4% 0 0 0;
+
+}
+.table-w{
+    border-top: 3px solid #000;
+    /* margin-top: 3%; */
+}
+.height-30{
+    height: 36px;
+} */
 
 
 
