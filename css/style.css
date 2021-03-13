@@ -153,7 +153,7 @@ img{
     padding: 20px 60px;
 }
 .col-50-t{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: 600;
     font-family: 'Cafe24Oneprettynight';
     margin-top: 10%;
@@ -223,9 +223,9 @@ img{
 
 .sec03-t-des{
    font-family: 'Cafe24Oneprettynight';
-   font-size: 1rem;
+   font-size: 1.4rem;
    font-weight: 600;
-   line-height: 1.6rem;
+   line-height: 2rem;
 }
 .sec-03-tab-ss>ul>li{
     float: left;
@@ -236,7 +236,7 @@ img{
 
 .season-info{
     font-family: 'Noto Sans KR', sans-serif;
-    font-size: .9rem;
+    font-size: 1.2rem;
     font-weight: 500;
 }
 
@@ -307,6 +307,7 @@ img{
     width: 100%;
     background-image: url(../img/bg.png);
     background-color: white;
+    /* background-size: ; */
     background-position: center;
 }
 
@@ -317,16 +318,20 @@ img{
        cursor: pointer;
     
 }
+.sec04-img-content{
+    margin-left: 2.7%;
+}
 
 .sec04-img-con-none>div{
     float: left;
     width: 20%;
-    margin: 3% 2%; 
+    margin: 0 2%;
+    cursor: pointer;
 }
 
 .sec04-img-con-none{
     display: none;
-    cursor: pointer;
+    margin-left: 2.7%;
 }
 .add-btn{
     text-align: center;
@@ -338,6 +343,9 @@ img{
 }
 .add-btn:hover{
     color: #2a3d45;
+}
+.sec04-add-handler{
+    margin-bottom: 5%;
 }
 .sec04-cont-theme{
     font-family: 'Cafe24Oneprettynight';
@@ -356,7 +364,43 @@ img{
     font-size: 1rem;
     font-weight: 600;
     line-height: 25px;
+    height: 80px;
 }
+.margin-bottom{
+    margin-bottom: 20%;
+}
+/* section04 END */
+#section05{
+    width: 100%;
+    background:#2a3d45;
+}
+
+.sec05-main-tit::after{
+    width: 53px;
+    height: 4px;
+    background: #fff;
+    content: "";
+    position: absolute;
+   top: 36%;
+    left: 47.9%;
+}
+.sec05-main-tit{
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+    padding: 7% 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #fff;
+    position: relative;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -488,7 +532,20 @@ img{
         width: 45%;
         margin:0 2.5% 3% 2.5%;
     }
+    .sec03-img-content>img{
+        width: 80%;
+    }
   /* section04 END */
+  .sec04-img-content{
+    margin-left: 0;
+}
+.sec04-img-con-none{
+    margin-left: 0;
+}
+.sec05-main-tit::after{
+    top: 30%;
+     left: 46.5%;
+ }
 }
 
 
@@ -577,8 +634,24 @@ img{
         font-size: 1rem;
         height: 100px;
     }
+    .sec04-cont-des{
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+    }
+    .sec04-cont-tit{
+        font-size: 1.2rem;
+    }
+    .sec04-cont-theme{
+        font-size: .9rem;
+    }
     /* section04 END */
-    
+    .sec05-main-tit::after{
+        top: 23%;
+         left: 45%;
+     }
+     #section05{
+        padding-top: 10%;
+    }
   
    
 }
@@ -609,7 +682,9 @@ img{
       
        }
        /*sec1 end*/
-
+       #section02{
+           padding: 0;
+       }
        .sec02-main-tit::after {
         left: 42.3%;
       }
@@ -675,6 +750,9 @@ img{
        margin: 0 10% 3%;
     
 }
+.sec04-img-content{
+    margin-left: 0;
+}
 .sec04-img-con-none>div{
     width: 80%;
     margin:0 10% 10% ;
@@ -682,6 +760,17 @@ img{
 .sec04-img-con-none{
     margin: 10% 0 0;
 }
+.add-btn{
+    font-size: 1rem;
+}
 /* section04 END */
+.sec05-main-tit::after{
+    top: 16%;
+     left: 41.2%;
+ }
+ .sec05-main-tit{
+     font-size: 0.8rem;
+ }
+
 
 }
