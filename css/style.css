@@ -140,9 +140,10 @@
    top: 32%;
     left: 48%;
 }
-img{
+.col-50>img{
     width: 100%;
     margin-top: 19%;
+    margin-left: 35%;
 }
 
 .media-des{
@@ -150,7 +151,7 @@ img{
 }
 .col-50{
     width:40%;
-    padding: 20px 60px;
+    padding: 20px 0;
 }
 .col-50-t{
     font-size: 1.2rem;
@@ -174,6 +175,7 @@ img{
     background-image: url(../img/bg.png);
     background-color: white;
     background-position: center;
+    padding-top: 60px 0;
 }
 
 .sec-03-con-tit{
@@ -302,207 +304,59 @@ img{
 
 
 /* section03 END */
-
 #section04{
     width: 100%;
     background-image: url(../img/bg.png);
-    background-color: white;
     background-position: center;
-}
-
-.sec04-img-content>div{
-    float: left;
-    width: 20%;
-       padding: 0 2% 3% 2%;
-       cursor: pointer;
-    
-}
-.sec04-img-content{
-    margin-left: 2.7%;
-}
-
-.sec04-img-con-none>div{
-    float: left;
-    width: 20%;
-    margin: 0 2%;
-    cursor: pointer;
+    background-size: auto;
+    padding: 60px 0;
 }
 
 .sec04-img-con-none{
     display: none;
-    margin-left: 2.7%;
+    padding: 2% 0;
 }
-.add-btn{
-    text-align: center;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-weight: 500;
-    font-size: 1.3rem;
-    color:#545454;
-    cursor: pointer;    
+
+.sec04-imgcon{
+    float: left;
+    width: 20%;
+    padding: 0 2%;
+    cursor: pointer;
 }
-.add-btn:hover{
-    color: #2a3d45;
-}
-.sec04-add-handler{
-    margin-bottom: 5%;
-}
-.sec04-cont-theme{
-    font-family: 'Cafe24Oneprettynight';
-    font-size: 1rem;
-    font-weight: 600;
-    padding: 5% 0;
-}
-.sec04-cont-tit{
-    font-family: 'Cafe24Oneprettynight';
-    font-size: 1.4rem;
-    font-weight: 700; 
-    padding-bottom: 8%;
+.sec04-imgcon>img{
+    width: 100%;
 }
 .sec04-cont-des{
-    font-family: 'Cafe24Oneprettynight';
-    font-size: 1rem;
-    font-weight: 600;
-    line-height: 25px;
     height: 80px;
 }
-.margin-bottom{
-    padding-bottom: 20%;
-}
-/* section04 END */
-#section05{
-    width: 100%;
-    background:#2a3d45;
-}
 
-.sec05-main-tit::after{
-    width: 53px;
-    height: 4px;
-    background: #000;
-    content: "";
-    position: absolute;
-   top: 36%;
-    left: 47.9%;
-}
-.sec05-main-tit{
-    font-family: 'Noto Sans KR', sans-serif;
+.sec04-add-handler{
     text-align: center;
-    padding: 7% 0;
-    font-size: 1.1rem;
+    padding:2% 0;
+    cursor: pointer;
+}
+.add-btn:hover{
+    color: #e55656;
+}
+.sec04-cont-theme{
+    font-size: 0.9rem;
+    font-family: 'Cafe24Oneprettynight';
     font-weight: 600;
-    color: #000;
-    position: relative;
+    line-height: 20px;
 }
-
-.info-warp>div{
-    width: 41%;
-    float: left;
-}
-.info-warp{
-    margin-left: 4.8%;
-}
-.time-ex{
-    float: left;
-    font-size: 1.3rem;
-font-weight: 600;
-}
-.time-all{
-    float: right;
-    font-size: 1.1rem;
-    font-weight: 500;
-}
-.time-text>ul>h3{
-    float: left;
+.sec04-cont-tit{
     font-size: 1.2rem;
-    font-weight: 500;
-    width: 40%;
-    text-align: center;
+    font-family: 'Cafe24Oneprettynight';
+    font-weight: 700;  
+    line-height: 50px;
 }
-.time-text>ul>p{
-    float: right;
-    font-size: 1.2rem;
-    font-weight: 500;
-    width: 42%;
-    text-align: center;
+.sec04-cont-des{
+    font-size: 1rem;
+    font-family: 'Cafe24Oneprettynight';
+    font-weight: 600;  
+    line-height: 25px;
 }
-.time-text{
-    height: 50px;
-    display: block;
-    line-height: 27px;
-    padding: 7%;
-    border-top: 3px solid #000;
-    margin-top: 3%;  
-}
-.address{
-float: left;
-font-size: 1.3rem;
-font-weight: 600;
-}
-.parking{
-    float: right;
-    font-size: 1.1rem;
-    font-weight: 500;
-}
-.add-table{
-    margin-left: 11.6%;
-}
-.fas{
-    font-size: 1.3rem;
-}
-.address-text>p{
-    text-align: center;
-    font-size: 1.2rem;
-}
-
-.address-text {
-    height: 50px;
-    display: block;
-    line-height: 27px;
-    padding: 7%;
-    border-top: 3px solid #000;
-    margin-top: 3%;
-}
-.ticket-table{
-    width: 50%;
-    padding: 16% 0 0 4.5%;
-}
-.ticket-tit>p{
-    float: left;
-    width: 25%;
-    text-align: center;
-}
-.target{
-    font-size: 1.1rem;
-    font-weight: 600;
-}
-.fs-13{
-    font-size: 1.3rem;
-    font-weight: 600;
-}
-/* th{
-    font-size: 1.3rem;
-    font-weight: 600;
-    width: 200px;
-
-}
-td{
-    font-size: 1.2rem;
-    width: 100px;
-    text-align: center;
-    padding: 4% 0 0 0;
-
-}
-.table-w{
-    border-top: 3px solid #000;
-    /* margin-top: 3%; */
-}
-.height-30{
-    height: 36px;
-} */
-
-
-
-
-
+/* section04 End */
 
 
 
@@ -578,6 +432,10 @@ td{
     .none{
         display: none;
     }
+    .col-50>img{
+        margin-top: 0;
+        margin-left: 0;
+    }
     /* section02 end */
 
     .sec-03-img-con-w{
@@ -624,32 +482,24 @@ td{
     .bg-gr{
         background-position:center;
     }
-
-    /* section03 END */
-    
-    .sec04-img-content>div{
-        width: 45%;
-        margin: 0 2.5% 3% 2.5%;
-        
-    }
-    .sec04-img-con-none>div{
-        width: 45%;
-        margin:0 2.5% 3% 2.5%;
-    }
     .sec03-img-content>img{
         width: 80%;
     }
-  /* section04 END */
-  .sec04-img-content{
-    margin-left: 0;
-}
+    /* section03 END */
+ 
 .sec04-img-con-none{
-    margin-left: 0;
+    padding-left: 26px;
+}
+.sec04-img-content{
+    padding-left: 26px;  
 }
 .sec05-main-tit::after{
     top: 30%;
      left: 46.5%;
  }
+ /* section04 END */
+
+
 }
 
 
@@ -724,15 +574,11 @@ td{
     #section04{
         width: 100%;
     }
-    .sec04-img-con-none>div{
+    .sec04-imgcon{
         width: 40%;
-        margin:0 5% ;
+        margin:0 1.8%;
     }
-    .sec04-img-content>div{
-        width: 40%;
-        margin: 0 5%;
-        
-    }
+    
     .sec04-cont-des{
         line-height: 20px;
         font-size: 1rem;
@@ -849,21 +695,10 @@ td{
      background-position:center;
  }
  /* section03 End */
- .sec04-img-content>div{
+ .sec04-imgcon{
      width: 80%;
-       margin: 0 10% 3%;
-    
-}
-.sec04-img-content{
-    margin-left: 0;
-}
-.sec04-img-con-none>div{
-    width: 80%;
-    margin:0 10% 10% ;
-}
-.sec04-img-con-none{
-    margin: 10% 0 0;
-}
+     margin: 0 3.8%;
+ }
 .add-btn{
     font-size: 1rem;
 }
