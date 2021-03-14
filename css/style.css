@@ -183,6 +183,7 @@
     right: 7%;
     bottom:0;
     z-index: 999;
+    display: none;
 }
 
 /* section02 END */
@@ -379,8 +380,146 @@
     background: #2a3d45;
 }
 
-
-
+.sec05-main-tit{
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+    padding: 7% 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    position: relative;
+    color: #fff;
+}
+.sec05-main-tit::after{
+    width: 53px;
+    height: 4px;
+    background: #fff;
+    content: "";
+    position: absolute;
+   top: 32%;
+    left: 48%;
+}
+.time-tit{
+    float: left;
+    font-size: 1.3rem;
+    font-size: 600;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #fff;
+}
+.time-info{
+    float: right;
+    font-size: 1.1rem;
+    font-size: 600;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #e55656;
+}
+.time-title{
+    padding-bottom: 5%;
+}
+.add-tit{
+    float: left;
+    font-size: 1.3rem;
+    font-size: 600;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #fff;
+}
+.parking-info{
+    float: right;
+    font-size: 1.1rem;
+    font-size: 600;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #e55656;
+}
+.info-top>div{
+    float: left;
+    width: 45%;
+    padding: 0 2%;
+}
+.daily-time>ul{
+    float: left;
+    width: 45%;
+}
+.daily-time>ul>li{
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    line-height: 35px;
+    color: #fff;
+}
+.daily-time{
+    border-top: 3px solid #fff;
+    padding: 2%;
+}
+.address>p{
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    line-height: 35px;
+    color: #fff;
+}
+.address{
+    border-top: 3px solid #fff;
+    padding: 2%;
+}
+.add-title{
+    padding-bottom: 5%;
+}
+.ticket-price{
+    width: 45%;
+    margin: 0 2%;
+}
+.text-11{
+    font-size: 1.1rem;
+    font-size: 600;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #fff;
+    text-align: center; 
+}
+.text-13{
+    font-size: 1.3rem;
+    font-size: 600;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #fff;
+    text-align: center; 
+}
+.height-30{
+    height: 30px;
+}
+.table-w>td{
+    font-size: 1.1rem;
+    font-size: 600;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #fff;
+    text-align: center; 
+    padding: 2%;
+}
+.table-w{
+    border-top: 3px solid #fff;
+    padding: 2%;
+}
+.student>td{
+    font-size: 1.1rem;
+    font-size: 600;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #fff;
+    text-align: center; 
+    padding: 2%;
+}
+.kid>td{
+    font-size: 1.1rem;
+    font-size: 600;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #fff;
+    text-align: center; 
+    padding: 2%;
+}
+.info-bottom{
+    padding-top: 10%;
+}
+.bottom-logo>img{
+    width: 5%;
+    float: right;
+    padding-bottom: 3%;
+}
 
 @media (max-width:1024px){
    
@@ -518,7 +657,116 @@
      left: 46.5%;
  }
  /* section04 END */
+ #section05{
+    width: 100%;
+    background: #2a3d45;
+}
 
+
+.time-tit{
+    float: left;
+    font-size: 1.3rem;
+    font-size: 600;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #fff;
+}
+.time-info{
+    float: right;
+    font-size: 1.1rem;
+    font-size: 600;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #e55656;
+}
+.time-title{
+    padding-bottom: 5%;
+}
+.add-tit{
+    float: left;
+    font-size: 1.3rem;
+    font-size: 600;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #fff;
+}
+.parking-info{
+    float: right;
+    font-size: 1.1rem;
+    font-size: 600;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #e55656;
+}
+.info-top>div{
+    float: left;
+    width: 80%;
+    padding: 5% 10%;
+}
+.daily-time>ul>li{
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    line-height: 35px;
+    color: #fff;
+}
+.ticket-price{
+    width: 80%;
+    margin: 0 10%;
+}
+.text-11{
+    font-size: 1.1rem;
+    font-size: 600;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #fff;
+    text-align: center; 
+}
+.text-13{
+    font-size: 1.3rem;
+    font-size: 600;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #fff;
+    text-align: center; 
+}
+.height-30{
+    height: 30px;
+}
+.table-w>td{
+    font-size: 1.1rem;
+    font-size: 600;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #fff;
+    text-align: center; 
+    padding: 2%;
+}
+.table-w{
+    border-top: 3px solid #fff;
+    padding: 2%;
+}
+.student>td{
+    font-size: 1.1rem;
+    font-size: 600;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #fff;
+    text-align: center; 
+    padding: 2%;
+}
+.kid>td{
+    font-size: 1.1rem;
+    font-size: 600;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #fff;
+    text-align: center; 
+    padding: 2%;
+}
+.info-bottom{
+    padding-top: 10%;
+}
+.bottom-logo>img{
+    width: 10%;
+    float: right;
+    padding:4% 44%;
+    
+}
+.top-btn{
+    right: 0%;
+}
 
 }
 
@@ -622,7 +870,61 @@
      #section05{
         padding-top: 10%;
     }
-  
+    
+    .time-tit{
+        font-size: 1.1rem;
+    }
+    .time-info{
+        font-size: .9rem;
+    }
+    .time-title{
+        padding-bottom: 5%;
+    }
+    .add-tit{
+        font-size: 1.1rem;
+    }
+    .parking-info{
+        font-size: .9rem;
+    }
+    .daily-time>ul>li{
+        font-size: .9rem;
+    }
+    .text-11{
+        font-size: .9rem;
+    }
+    .text-13{
+        font-size: 1.1rem;
+    }
+    .height-30{
+        height: 30px;
+    }
+    .table-w>td{
+        font-size: .9rem;
+    }
+    .student>td{
+        font-size: .9rem;
+    }
+    .kid>td{
+        font-size: .9rem;   
+    }
+    .info-bottom{
+        padding-top: 5%;
+    }
+    .table-w{
+        border-top: 2px solid #fff;
+        padding: 2%;
+    }
+    .daily-time{
+        border-top: 2px solid #fff;
+        padding: 2%;
+    }
+    .address{
+        border-top: 2px solid #fff;
+        padding: 2%;
+    }
+    .address>p{
+        font-size: .9rem;
+    }
    
 }
 
@@ -730,6 +1032,76 @@
  .sec05-main-tit{
      font-size: 0.8rem;
  }
+
+
+.time-tit{
+    font-size: .9rem;
+}
+.time-info{
+    font-size: .7rem;
+}
+.time-tit{
+    padding-bottom: 2%;
+}
+.time-title{
+    padding-bottom: 5%;
+}
+.add-tit{
+    font-size: .9rem;
+    padding-bottom: 2%;
+}
+.parking-info{
+    font-size: .7rem;
+}
+.daily-time>ul>li{
+    font-size: .7rem;
+}
+.text-11{
+    font-size: .7rem;
+}
+.text-13{
+    font-size: .9rem;
+}
+.height-30{
+    height: 20px;
+}
+.table-w>td{
+    font-size: .7rem;
+}
+.student>td{
+    font-size: .7rem;
+}
+.kid>td{
+    font-size: .7rem;   
+}
+.info-bottom{
+    padding-top: 3%;
+}
+.table-w{
+    border-top: 1px solid #fff;
+}
+.daily-time{
+    border-top: 1px solid #fff;
+}
+.address{
+    border-top: 1px solid #fff;
+}
+.address>p{
+    font-size: .7rem;
+}
+.fa-arrow-circle-up{
+    font-size: .9rem;
+    width: 60px;
+    text-align: center;
+}
+.top{
+    font-size: .9rem;
+    width: 60px;
+    text-align: center;
+}
+.height-30{
+    margin-bottom: 2%;
+}
 
 
 }

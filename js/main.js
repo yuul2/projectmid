@@ -1,7 +1,7 @@
 $(function(){
     $(window).scroll(function(){
-        if($(this).scrollTop()>400){
-            $('.nav-c').css('color','black');
+        if($(this).scrollTop()>3300){
+            $('.nav-c').css('color','#ffffff');
         } else if($(this).scrollTop()>250){
             $('.nav-c').css('color','black')
         }else{
@@ -10,6 +10,27 @@ $(function(){
     });
 });
 // navigator jquery
+
+$(function(){
+    $(window).scroll(function(){
+        if($(this).scrollTop()>990){
+            $('.top-btn').show()
+        }else{
+            $('.top-btn').hide()
+        }
+    })
+})
+$(function(){
+    $(window).scroll(function(){
+        if($(this).scrollTop()>3250){
+            $('#top-btn').css('color','#ffffff');
+        }else{
+            $('#top-btn').css('color','#000')
+        }
+    });
+});
+
+
 
 $(function(){
     $('.col-pk').click(function(){
