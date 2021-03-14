@@ -307,14 +307,13 @@ img{
     width: 100%;
     background-image: url(../img/bg.png);
     background-color: white;
-    /* background-size: ; */
     background-position: center;
 }
 
 .sec04-img-content>div{
     float: left;
     width: 20%;
-       margin: 0 2% 3% 2%;
+       padding: 0 2% 3% 2%;
        cursor: pointer;
     
 }
@@ -367,7 +366,7 @@ img{
     height: 80px;
 }
 .margin-bottom{
-    margin-bottom: 20%;
+    padding-bottom: 20%;
 }
 /* section04 END */
 #section05{
