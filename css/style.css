@@ -168,6 +168,22 @@
 .display-none{
     display: none;
 }
+.fa-arrow-circle-up{
+    font-size: 1.2rem;
+    width: 80px;
+    text-align: center;
+}
+.top{
+    font-size: 1.2rem;
+    width: 80px;
+    text-align: center;
+}
+.top-btn{
+    position: fixed;
+    right: 7%;
+    bottom:0;
+    z-index: 999;
+}
 
 /* section02 END */
 #section03{
@@ -358,6 +374,10 @@
 }
 /* section04 End */
 
+#section05{
+    width: 100%;
+    background: #2a3d45;
+}
 
 
 
