@@ -213,6 +213,8 @@
     background-repeat: no-repeat;
     background-position-x: 5px;
     background-position-y: 7px;
+    animation-name: fadeInDown;
+    animation-duration: 3s;
 }
 .bg-gn{
     background-image: url(../img/highlight_gn.png);
@@ -238,6 +240,12 @@
 
 .sec-03-con-sub{
  padding-top: 30%;
+ animation-name: fadeInDown;
+ animation-duration: 3s;
+}
+@keyframes{
+    0%{left:0; top: 0;}
+    10%{left: 0;top: 100%;}
 }
 
 .sec03-t-des{
@@ -295,6 +303,8 @@
     margin-left: 12%;
 }
 .sec03-img-spring{
+    animation-name: fadeInLeft;
+    animation-duration: 3s;
     display: none;
 
 }
@@ -302,19 +312,29 @@
     display: none;
 }
 .sec03-img-summer{
+    animation-name: fadeInLeft;
+    animation-duration: 3s;
     display: none;
 }
 .sec-03-top-none-fall{
     display: none;
 }
 .sec03-img-fall{
+    animation-name: fadeInLeft;
+    animation-duration: 3s;
     display: none;
 }
 .sec-03-top-none-win{
     display: none;
 }
 .sec03-img-winter{
+    animation-name: fadeInLeft;
+    animation-duration: 3s;
     display: none;
+}
+@keyframes{
+    0% {left: 0; top:0;}
+    100% {left:100%; top:100%; }
 }
 
 
@@ -463,10 +483,8 @@
 .add-title{
     padding-bottom: 5%;
 }
-.ticket-price{
-    width: 45%;
-    margin: 0 2%;
-}
+
+
 .text-11{
     font-size: 1.1rem;
     font-size: 600;
@@ -520,6 +538,13 @@
     float: right;
     padding-bottom: 3%;
 }
+.price-info{
+    float: left;
+    margin: 0 8.5% 0 2% ;
+
+}
+
+/* section05 End */
 
 @media (max-width:1024px){
    
@@ -616,6 +641,7 @@
        
     .sec03-t-des{
          text-align: center;
+       
      }
      .sec03-img-content img{
        display: block;
@@ -624,11 +650,13 @@
      }
      .sec-03-con-sub{
          padding-top: 9%;
+     ;
      }
 
      .sec-03-con-t{
        background-position:center;
     }
+    
     .sec-03-con-tit{
         text-align: center;
     }
@@ -706,6 +734,7 @@
     line-height: 35px;
     color: #fff;
 }
+
 .ticket-price{
     width: 80%;
     margin: 0 10%;
@@ -766,6 +795,15 @@
 }
 .top-btn{
     right: 0%;
+}
+.price-info{
+    float: none;
+    margin:0;
+
+}
+#map{
+    width: 90% !important;
+    margin: 10% 5%;
 }
 
 }
